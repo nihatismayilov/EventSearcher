@@ -23,5 +23,14 @@ platform :ios do
       scheme: "EventSearcher",
       output_directory: "./reports"
       )
+    slather(
+        build_directory: "./DerivedData",
+        output_directory: "./reports",
+        scheme: "EventSearcher",
+        proj: "EventSearcher.xcodeproj",
+        sonarqube_xml: true,
+        github: true,
+        arch: "x86_64"
+      )
   end
 end
