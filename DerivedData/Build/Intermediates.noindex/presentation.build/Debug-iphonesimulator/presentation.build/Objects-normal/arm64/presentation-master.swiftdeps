@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "b952b40101f8bcdf5a0bc8c95a769d8d270a5e5c45db1a247070a842e733dfdc"
+build_start_time: [1661960552, 466667175]
+build_end_time: [1661960553, 2716064]
+inputs:
+  "/Users/nazimasadov/Desktop/EventSearcher/presentation/Global/Extensions.swift": [1661958021, 487215757]
+  "/Users/nazimasadov/Desktop/EventSearcher/presentation/ViewControllers/Base/BaseViewController.swift": [1661958021, 488308906]
+  "/Users/nazimasadov/Desktop/EventSearcher/presentation/ViewControllers/Base/Router.swift": [1661958021, 488444328]
+  "/Users/nazimasadov/Desktop/EventSearcher/presentation/ViewControllers/First/FirstViewController.swift": [1661958021, 488628625]
+  "/Users/nazimasadov/Desktop/EventSearcher/presentation/ViewControllers/First/FirstViewModel.swift": [1661958021, 488765001]

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>092489CA-9A2F-493A-B817-2947E8D86F6A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>092489CA-9A2F-493A-B817-2947E8D86F6A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EventSearcher project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EventSearcher</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project EventSearcher with scheme EventSearcher</string>
+			<key>timeStartedRecording</key>
+			<real>683653328.15034401</real>
+			<key>timeStoppedRecording</key>
+			<real>683653342.42266595</real>
+			<key>title</key>
+			<string>Building project EventSearcher with scheme EventSearcher</string>
+			<key>uniqueIdentifier</key>
+			<string>092489CA-9A2F-493A-B817-2947E8D86F6A</string>
+		</dict>
+		<key>19A5CC08-F8D0-49CC-84D8-66410752D2A6</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>19A5CC08-F8D0-49CC-84D8-66410752D2A6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EventSearcher project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EventSearcher</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project EventSearcher with scheme EventSearcher</string>
+			<key>timeStartedRecording</key>
+			<real>683653327.52187896</real>
+			<key>timeStoppedRecording</key>
+			<real>683653328.14991498</real>
+			<key>title</key>
+			<string>Cleaning project EventSearcher with scheme EventSearcher</string>
+			<key>uniqueIdentifier</key>
+			<string>19A5CC08-F8D0-49CC-84D8-66410752D2A6</string>
+		</dict>
+		<key>5A0C8539-70A1-4169-AD1C-5F3850C55802</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5A0C8539-70A1-4169-AD1C-5F3850C55802.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EventSearcher project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EventSearcher</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project EventSearcher with scheme EventSearcher</string>
+			<key>timeStartedRecording</key>
+			<real>683652902.99543595</real>
+			<key>timeStoppedRecording</key>
+			<real>683652919.44483197</real>
+			<key>title</key>
+			<string>Testing project EventSearcher with scheme EventSearcher</string>
+			<key>uniqueIdentifier</key>
+			<string>5A0C8539-70A1-4169-AD1C-5F3850C55802</string>
+		</dict>
+		<key>5B940815-74E2-4194-9B15-772C0302436A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5B940815-74E2-4194-9B15-772C0302436A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EventSearcher project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EventSearcher</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project EventSearcher with scheme EventSearcher</string>
+			<key>timeStartedRecording</key>
+			<real>683653342.42315996</real>
+			<key>timeStoppedRecording</key>
+			<real>683653354.72551405</real>
+			<key>title</key>
+			<string>Testing project EventSearcher with scheme EventSearcher</string>
+			<key>uniqueIdentifier</key>
+			<string>5B940815-74E2-4194-9B15-772C0302436A</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

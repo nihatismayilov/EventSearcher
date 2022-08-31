@@ -1,0 +1,11 @@
+framework module domain {
+  umbrella header "domain.h"
+
+  export *
+  module * { export * }
+}
+
+module domain.Swift {
+    header "domain-Swift.h"
+    requires objc
+}

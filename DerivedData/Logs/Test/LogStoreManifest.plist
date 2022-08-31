@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>5BC01E90-528F-4C0B-8AE4-E7D500C32C39</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>19A5CC08-F8D0-49CC-84D8-66410752D2A6</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Run-EventSearcher-2022.08.31_19-42-07-+0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasCoverageData</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EventSearcher project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EventSearcher</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EventSearcher</string>
+			<key>timeStartedRecording</key>
+			<real>683653327.52443302</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run EventSearcher</string>
+			<key>uniqueIdentifier</key>
+			<string>5BC01E90-528F-4C0B-8AE4-E7D500C32C39</string>
+		</dict>
+		<key>CB3C09D9-9BD0-43B4-9788-910E90C37116</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>439997F6-E8AE-4111-BED7-6E5D3537E437</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Run-EventSearcher-2022.08.31_19-34-36-+0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasCoverageData</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EventSearcher project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EventSearcher</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EventSearcher</string>
+			<key>timeStartedRecording</key>
+			<real>683652876.625108</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run EventSearcher</string>
+			<key>uniqueIdentifier</key>
+			<string>CB3C09D9-9BD0-43B4-9788-910E90C37116</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

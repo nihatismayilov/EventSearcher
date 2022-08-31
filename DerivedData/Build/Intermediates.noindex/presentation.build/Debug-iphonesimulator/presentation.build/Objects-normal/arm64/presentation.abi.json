@@ -1,0 +1,1029 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "presentation",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "presentation"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "presentation",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Swinject",
+      "printedName": "Swinject",
+      "declKind": "Import",
+      "moduleName": "presentation"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RouterProtocol",
+      "printedName": "RouterProtocol",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "firstViewController",
+          "printedName": "firstViewController()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FirstViewController",
+              "printedName": "presentation.FirstViewController",
+              "usr": "s:12presentation19FirstViewControllerC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:12presentation14RouterProtocolP19firstViewControllerAA05FirsteF0CyF",
+          "mangledName": "$s12presentation14RouterProtocolP19firstViewControllerAA05FirsteF0CyF",
+          "moduleName": "presentation",
+          "genericSig": "<τ_0_0 where τ_0_0 : presentation.RouterProtocol>",
+          "sugared_genericSig": "<Self where Self : presentation.RouterProtocol>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:12presentation14RouterProtocolP",
+      "mangledName": "$s12presentation14RouterProtocolP",
+      "moduleName": "presentation"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Router",
+      "printedName": "Router",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "resolver",
+          "printedName": "resolver",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Resolver",
+              "printedName": "Swinject.Resolver",
+              "usr": "s:8Swinject8ResolverP"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12presentation6RouterC8resolver33_8B41905AEDDA734D4B413BBAA906E273LL8Swinject8Resolver_pvp",
+          "mangledName": "$s12presentation6RouterC8resolver33_8B41905AEDDA734D4B413BBAA906E273LL8Swinject8Resolver_pvp",
+          "moduleName": "presentation",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(resolver:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Router",
+              "printedName": "presentation.Router",
+              "usr": "s:12presentation6RouterC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Resolver",
+              "printedName": "Swinject.Resolver",
+              "usr": "s:8Swinject8ResolverP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12presentation6RouterC8resolverAC8Swinject8Resolver_p_tcfc",
+          "mangledName": "$s12presentation6RouterC8resolverAC8Swinject8Resolver_p_tcfc",
+          "moduleName": "presentation",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "firstViewController",
+          "printedName": "firstViewController()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FirstViewController",
+              "printedName": "presentation.FirstViewController",
+              "usr": "s:12presentation19FirstViewControllerC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:12presentation6RouterC19firstViewControllerAA05FirstdE0CyF",
+          "mangledName": "$s12presentation6RouterC19firstViewControllerAA05FirstdE0CyF",
+          "moduleName": "presentation",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:12presentation6RouterC",
+      "mangledName": "$s12presentation6RouterC",
+      "moduleName": "presentation",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "hasMissingDesignatedInitializers": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "RouterProtocol",
+          "printedName": "RouterProtocol",
+          "usr": "s:12presentation14RouterProtocolP",
+          "mangledName": "$s12presentation14RouterProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "presentation",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BaseViewController",
+      "printedName": "BaseViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "vm",
+          "printedName": "vm",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "τ_0_0?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12presentation18BaseViewControllerC2vmxSgvp",
+          "mangledName": "$s12presentation18BaseViewControllerC2vmxSgvp",
+          "moduleName": "presentation",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "τ_0_0?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12presentation18BaseViewControllerC2vmxSgvg",
+              "mangledName": "$s12presentation18BaseViewControllerC2vmxSgvg",
+              "moduleName": "presentation",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<VM>",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "τ_0_0?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12presentation18BaseViewControllerC2vmxSgvs",
+              "mangledName": "$s12presentation18BaseViewControllerC2vmxSgvs",
+              "moduleName": "presentation",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<VM>",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12presentation18BaseViewControllerC2vmxSgvM",
+              "mangledName": "$s12presentation18BaseViewControllerC2vmxSgvM",
+              "moduleName": "presentation",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<VM>",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "router",
+          "printedName": "router",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "presentation.RouterProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RouterProtocol",
+                  "printedName": "presentation.RouterProtocol",
+                  "usr": "s:12presentation14RouterProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12presentation18BaseViewControllerC6routerAA14RouterProtocol_pSgvp",
+          "mangledName": "$s12presentation18BaseViewControllerC6routerAA14RouterProtocol_pSgvp",
+          "moduleName": "presentation",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "presentation.RouterProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RouterProtocol",
+                      "printedName": "presentation.RouterProtocol",
+                      "usr": "s:12presentation14RouterProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12presentation18BaseViewControllerC6routerAA14RouterProtocol_pSgvg",
+              "mangledName": "$s12presentation18BaseViewControllerC6routerAA14RouterProtocol_pSgvg",
+              "moduleName": "presentation",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<VM>",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "presentation.RouterProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RouterProtocol",
+                      "printedName": "presentation.RouterProtocol",
+                      "usr": "s:12presentation14RouterProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12presentation18BaseViewControllerC6routerAA14RouterProtocol_pSgvs",
+              "mangledName": "$s12presentation18BaseViewControllerC6routerAA14RouterProtocol_pSgvs",
+              "moduleName": "presentation",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<VM>",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12presentation18BaseViewControllerC6routerAA14RouterProtocol_pSgvM",
+              "mangledName": "$s12presentation18BaseViewControllerC6routerAA14RouterProtocol_pSgvM",
+              "moduleName": "presentation",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<VM>",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BaseViewController",
+              "printedName": "presentation.BaseViewController<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:12presentation18BaseViewControllerC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12presentation18BaseViewControllerC7nibName6bundleACyxGSSSg_So8NSBundleCSgtcfc",
+          "mangledName": "$s12presentation18BaseViewControllerC7nibName6bundleACyxGSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "presentation",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<VM>",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "presentation.BaseViewController<τ_0_0>?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "BaseViewController",
+                  "printedName": "presentation.BaseViewController<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:12presentation18BaseViewControllerC"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12presentation18BaseViewControllerC5coderACyxGSgSo7NSCoderC_tcfc",
+          "mangledName": "$s12presentation18BaseViewControllerC5coderACyxGSgSo7NSCoderC_tcfc",
+          "moduleName": "presentation",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<VM>",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:12presentation18BaseViewControllerC",
+      "mangledName": "$s12presentation18BaseViewControllerC",
+      "moduleName": "presentation",
+      "genericSig": "<τ_0_0>",
+      "sugared_genericSig": "<VM>",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "AccessControl"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "presentation",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FirstViewModel",
+      "printedName": "FirstViewModel",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FirstViewModel",
+              "printedName": "presentation.FirstViewModel",
+              "usr": "s:12presentation14FirstViewModelC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12presentation14FirstViewModelCACycfc",
+          "mangledName": "$s12presentation14FirstViewModelCACycfc",
+          "moduleName": "presentation",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:12presentation14FirstViewModelC",
+      "mangledName": "$s12presentation14FirstViewModelC",
+      "moduleName": "presentation",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "hasMissingDesignatedInitializers": true
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "presentation",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SnapKit",
+      "printedName": "SnapKit",
+      "declKind": "Import",
+      "moduleName": "presentation"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FirstViewController",
+      "printedName": "FirstViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_testLabel",
+          "printedName": "$__lazy_storage_$_testLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UILabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12presentation19FirstViewControllerC27$__lazy_storage_$_testLabel33_C4314A06140ACC07B67EF52A2CC7514CLLSo7UILabelCSgvp",
+          "mangledName": "$s12presentation19FirstViewControllerC27$__lazy_storage_$_testLabel33_C4314A06140ACC07B67EF52A2CC7514CLLSo7UILabelCSgvp",
+          "moduleName": "presentation",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:12presentation19FirstViewControllerC11viewDidLoadyyF",
+          "mangledName": "$s12presentation19FirstViewControllerC11viewDidLoadyyF",
+          "moduleName": "presentation",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FirstViewController",
+              "printedName": "presentation.FirstViewController",
+              "usr": "s:12presentation19FirstViewControllerC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12presentation19FirstViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "mangledName": "$s12presentation19FirstViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "presentation",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "presentation.FirstViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FirstViewController",
+                  "printedName": "presentation.FirstViewController",
+                  "usr": "s:12presentation19FirstViewControllerC"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12presentation19FirstViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "mangledName": "$s12presentation19FirstViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "presentation",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:12presentation19FirstViewControllerC",
+      "mangledName": "$s12presentation19FirstViewControllerC",
+      "moduleName": "presentation",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "AccessControl"
+      ],
+      "superclassUsr": "s:12presentation18BaseViewControllerC",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "presentation.BaseViewController<presentation.FirstViewModel>",
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UILabel",
+      "printedName": "UILabel",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "getFont",
+          "printedName": "getFont(name:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7UILabelC12presentationE7getFont4nameySS_tF",
+          "mangledName": "$sSo7UILabelC12presentationE7getFont4nameySS_tF",
+          "moduleName": "presentation",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)UILabel",
+      "moduleName": "UIKit",
+      "isOpen": true,
+      "intro_iOS": "2.0",
+      "objc_name": "UILabel",
+      "declAttributes": [
+        "Available",
+        "ObjC",
+        "Custom",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)UIView",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ConstraintRelatableTarget",
+          "printedName": "ConstraintRelatableTarget",
+          "usr": "s:7SnapKit25ConstraintRelatableTargetP",
+          "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LayoutConstraintItem",
+          "printedName": "LayoutConstraintItem",
+          "usr": "s:7SnapKit20LayoutConstraintItemP",
+          "mangledName": "$s7SnapKit20LayoutConstraintItemP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

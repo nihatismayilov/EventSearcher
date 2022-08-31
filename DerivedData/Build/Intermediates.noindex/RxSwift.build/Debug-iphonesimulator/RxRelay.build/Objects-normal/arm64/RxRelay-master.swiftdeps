@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "cf903931b2e790d63c0c34774aabe5f2bab2d130aff19d39c32f35fb0474b7f3"
+build_start_time: [1661960551, 908195972]
+build_end_time: [1661960552, 87213993]
+inputs:
+  "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/SourcePackages/checkouts/RxSwift/Sources/RxRelay/BehaviorRelay.swift": [1661960069, 713083028]
+  "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/SourcePackages/checkouts/RxSwift/Sources/RxRelay/Observable+Bind.swift": [1661960069, 713289022]
+  "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/SourcePackages/checkouts/RxSwift/Sources/RxRelay/PublishRelay.swift": [1661960069, 713387727]
+  "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/SourcePackages/checkouts/RxSwift/Sources/RxRelay/ReplayRelay.swift": [1661960069, 713489532]
+  "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/SourcePackages/checkouts/RxSwift/Sources/RxRelay/Utils.swift": [1661960069, 713584423]

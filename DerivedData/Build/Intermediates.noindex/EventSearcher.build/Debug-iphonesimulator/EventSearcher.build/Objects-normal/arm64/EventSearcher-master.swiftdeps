@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "cfe0737eb612a25866b5d036a9181e14aa17936238b2981f09444192d850a676"
+build_start_time: [1661960553, 256053924]
+build_end_time: [1661960553, 526458024]
+inputs:
+  "/Users/nazimasadov/Desktop/EventSearcher/EventSearcher/AppDelegate.swift": [1661958021, 478923082]

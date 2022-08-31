@@ -1,0 +1,11 @@
+framework module data {
+  umbrella header "data.h"
+
+  export *
+  module * { export * }
+}
+
+module data.Swift {
+    header "data-Swift.h"
+    requires objc
+}

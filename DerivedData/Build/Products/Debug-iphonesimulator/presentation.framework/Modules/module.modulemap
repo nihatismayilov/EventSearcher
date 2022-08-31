@@ -1,0 +1,11 @@
+framework module presentation {
+  umbrella header "presentation.h"
+
+  export *
+  module * { export * }
+}
+
+module presentation.Swift {
+    header "presentation-Swift.h"
+    requires objc
+}

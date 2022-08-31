@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='EventSearcherUITests.xctest' tests='8' failures='0'>
+  <testsuite name='EventSearcherTests.EventSearcherTests' tests='2' failures='0'>
+    <testcase classname='EventSearcherTests.EventSearcherTests' name='testExample' time='0.002'/>
+    <testcase classname='EventSearcherTests.EventSearcherTests' name='testPerformanceExample' time='0.303'/>
+  </testsuite>
+  <testsuite name='EventSearcherUITests.EventSearcherUITests' tests='2' failures='0'>
+    <testcase classname='EventSearcherUITests.EventSearcherUITests' name='testExample' time='1.727'/>
+    <testcase classname='EventSearcherUITests.EventSearcherUITests' name='testLaunchPerformance' time='75.304'/>
+  </testsuite>
+  <testsuite name='EventSearcherUITests.EventSearcherUITestsLaunchTests' tests='4' failures='0'>
+    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='3.378'/>
+    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='5.182'/>
+    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='3.160'/>
+    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='5.163'/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/Build/Products/Debug-iphonesimulator/presentation.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/Build/Intermediates.noindex/presentation.build/Debug-iphonesimulator/presentation.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "repositories" : {
+      "https://github.com/Alamofire/Alamofire.git" : {
+        "repositoryURL" : "https://github.com/Alamofire/Alamofire.git",
+        "subpath" : "Alamofire-e8f130fe"
+      },
+      "https://github.com/google/promises" : {
+        "repositoryURL" : "https://github.com/google/promises",
+        "subpath" : "promises-811e183a"
+      },
+      "https://github.com/ReactiveX/RxSwift" : {
+        "repositoryURL" : "https://github.com/ReactiveX/RxSwift",
+        "subpath" : "RxSwift-17ad69a9"
+      },
+      "https://github.com/SnapKit/SnapKit.git" : {
+        "repositoryURL" : "https://github.com/SnapKit/SnapKit.git",
+        "subpath" : "SnapKit-dd27728c"
+      },
+      "https://github.com/Swinject/Swinject.git" : {
+        "repositoryURL" : "https://github.com/Swinject/Swinject.git",
+        "subpath" : "Swinject-40a3f282"
+      }
+    }
+  },
+  "version" : 1
+}
