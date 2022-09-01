@@ -6,10 +6,10 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>5BC01E90-528F-4C0B-8AE4-E7D500C32C39</key>
+		<key>9412963E-314C-410E-AE9E-6D47EA0E2377</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>19A5CC08-F8D0-49CC-84D8-66410752D2A6</string>
+			<string>61EB31BF-DFC4-4052-A4FC-A1E54658FCC3</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -22,7 +22,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Run-EventSearcher-2022.08.31_19-42-07-+0400.xcresult</string>
+			<string>Run-EventSearcher-2022.09.01_14-16-41-+0400.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasCoverageData</key>
@@ -43,18 +43,18 @@
 			<key>signature</key>
 			<string>Run EventSearcher</string>
 			<key>timeStartedRecording</key>
-			<real>683653327.52443302</real>
+			<real>683720201.85933697</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run EventSearcher</string>
 			<key>uniqueIdentifier</key>
-			<string>5BC01E90-528F-4C0B-8AE4-E7D500C32C39</string>
+			<string>9412963E-314C-410E-AE9E-6D47EA0E2377</string>
 		</dict>
-		<key>CB3C09D9-9BD0-43B4-9788-910E90C37116</key>
+		<key>E4A8D8C3-B5C6-434F-8084-41354C8DDF46</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>439997F6-E8AE-4111-BED7-6E5D3537E437</string>
+			<string>AC804ED0-31B1-4518-B147-C1F0DD4C8EB8</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -67,7 +67,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Run-EventSearcher-2022.08.31_19-34-36-+0400.xcresult</string>
+			<string>Run-EventSearcher-2022.09.01_14-20-10-+0400.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasCoverageData</key>
@@ -88,13 +88,13 @@
 			<key>signature</key>
 			<string>Run EventSearcher</string>
 			<key>timeStartedRecording</key>
-			<real>683652876.625108</real>
+			<real>683720410.01759303</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run EventSearcher</string>
 			<key>uniqueIdentifier</key>
-			<string>CB3C09D9-9BD0-43B4-9788-910E90C37116</string>
+			<string>E4A8D8C3-B5C6-434F-8084-41354C8DDF46</string>
 		</dict>
 	</dict>
 </dict>

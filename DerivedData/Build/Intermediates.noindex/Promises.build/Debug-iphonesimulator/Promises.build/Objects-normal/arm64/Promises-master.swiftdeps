@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "d0d66a95fc388202643f2b67e4beea781c5fb4bb91103f153a13e18279635374"
-build_start_time: [1661960545, 182986974]
-build_end_time: [1661960546, 624218940]
+build_start_time: [1662027613, 882975101]
+build_end_time: [1662027616, 543884038]
 inputs:
   "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/SourcePackages/checkouts/promises/Sources/Promises/Promise+All.swift": [1661960070, 601047754]
   "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/SourcePackages/checkouts/promises/Sources/Promises/Promise+Always.swift": [1661960070, 601168632]

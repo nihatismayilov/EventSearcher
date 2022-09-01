@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>092489CA-9A2F-493A-B817-2947E8D86F6A</key>
+		<key>36991A28-565D-43A4-B3F0-1E4F24D05904</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>092489CA-9A2F-493A-B817-2947E8D86F6A.xcactivitylog</string>
+			<string>36991A28-565D-43A4-B3F0-1E4F24D05904.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EventSearcher project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EventSearcher</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project EventSearcher with scheme EventSearcher</string>
+			<key>timeStartedRecording</key>
+			<real>683720427.49609196</real>
+			<key>timeStoppedRecording</key>
+			<real>683720429.33133602</real>
+			<key>title</key>
+			<string>Testing project EventSearcher with scheme EventSearcher</string>
+			<key>uniqueIdentifier</key>
+			<string>36991A28-565D-43A4-B3F0-1E4F24D05904</string>
+		</dict>
+		<key>835701E8-77B3-4AE8-A00A-DCEE92E81251</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>835701E8-77B3-4AE8-A00A-DCEE92E81251.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +66,15 @@
 			<key>signature</key>
 			<string>Building project EventSearcher with scheme EventSearcher</string>
 			<key>timeStartedRecording</key>
-			<real>683653328.15034401</real>
+			<real>683720410.68528199</real>
 			<key>timeStoppedRecording</key>
-			<real>683653342.42266595</real>
+			<real>683720427.48336697</real>
 			<key>title</key>
 			<string>Building project EventSearcher with scheme EventSearcher</string>
 			<key>uniqueIdentifier</key>
-			<string>092489CA-9A2F-493A-B817-2947E8D86F6A</string>
+			<string>835701E8-77B3-4AE8-A00A-DCEE92E81251</string>
 		</dict>
-		<key>19A5CC08-F8D0-49CC-84D8-66410752D2A6</key>
+		<key>AC804ED0-31B1-4518-B147-C1F0DD4C8EB8</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -49,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>19A5CC08-F8D0-49CC-84D8-66410752D2A6.xcactivitylog</string>
+			<string>AC804ED0-31B1-4518-B147-C1F0DD4C8EB8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +100,15 @@
 			<key>signature</key>
 			<string>Cleaning project EventSearcher with scheme EventSearcher</string>
 			<key>timeStartedRecording</key>
-			<real>683653327.52187896</real>
+			<real>683720410.01436496</real>
 			<key>timeStoppedRecording</key>
-			<real>683653328.14991498</real>
+			<real>683720410.67424095</real>
 			<key>title</key>
 			<string>Cleaning project EventSearcher with scheme EventSearcher</string>
 			<key>uniqueIdentifier</key>
-			<string>19A5CC08-F8D0-49CC-84D8-66410752D2A6</string>
+			<string>AC804ED0-31B1-4518-B147-C1F0DD4C8EB8</string>
 		</dict>
-		<key>5A0C8539-70A1-4169-AD1C-5F3850C55802</key>
+		<key>C59AB7CD-96CA-42DB-AE3D-30544D9596C7</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -83,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>5A0C8539-70A1-4169-AD1C-5F3850C55802.xcactivitylog</string>
+			<string>C59AB7CD-96CA-42DB-AE3D-30544D9596C7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,47 +134,13 @@
 			<key>signature</key>
 			<string>Testing project EventSearcher with scheme EventSearcher</string>
 			<key>timeStartedRecording</key>
-			<real>683652902.99543595</real>
+			<real>683720220.77314603</real>
 			<key>timeStoppedRecording</key>
-			<real>683652919.44483197</real>
+			<real>683720222.94339395</real>
 			<key>title</key>
 			<string>Testing project EventSearcher with scheme EventSearcher</string>
 			<key>uniqueIdentifier</key>
-			<string>5A0C8539-70A1-4169-AD1C-5F3850C55802</string>
-		</dict>
-		<key>5B940815-74E2-4194-9B15-772C0302436A</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5B940815-74E2-4194-9B15-772C0302436A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>EventSearcher project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>EventSearcher</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Testing project EventSearcher with scheme EventSearcher</string>
-			<key>timeStartedRecording</key>
-			<real>683653342.42315996</real>
-			<key>timeStoppedRecording</key>
-			<real>683653354.72551405</real>
-			<key>title</key>
-			<string>Testing project EventSearcher with scheme EventSearcher</string>
-			<key>uniqueIdentifier</key>
-			<string>5B940815-74E2-4194-9B15-772C0302436A</string>
+			<string>C59AB7CD-96CA-42DB-AE3D-30544D9596C7</string>
 		</dict>
 	</dict>
 </dict>

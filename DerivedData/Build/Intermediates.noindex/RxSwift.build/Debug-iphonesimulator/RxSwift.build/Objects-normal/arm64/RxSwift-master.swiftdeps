@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "9f0764b877b6631757243a497dd0ce6e912b298c38db7e7e11ea7576e9beca17"
-build_start_time: [1661960543, 399762153]
-build_end_time: [1661960551, 835363864]
+build_start_time: [1662027614, 541208982]
+build_end_time: [1662027623, 495486021]
 inputs:
   "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/SourcePackages/checkouts/RxSwift/Sources/RxSwift/AddRef.swift": [1661960069, 718262434]
   "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/SourcePackages/checkouts/RxSwift/Sources/RxSwift/Amb.swift": [1661960069, 718395709]
