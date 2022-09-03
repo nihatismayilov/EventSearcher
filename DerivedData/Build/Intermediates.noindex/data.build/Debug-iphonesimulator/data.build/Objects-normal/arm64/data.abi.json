@@ -76,37 +76,6 @@
       "printedName": "AttractionDTO",
       "children": [
         {
-          "kind": "Function",
-          "name": "==",
-          "printedName": "==(_:_:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Bool",
-              "printedName": "Swift.Bool",
-              "usr": "s:Sb"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "AttractionDTO",
-              "printedName": "data.AttractionDTO",
-              "usr": "s:4data13AttractionDTOV"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "AttractionDTO",
-              "printedName": "data.AttractionDTO",
-              "usr": "s:4data13AttractionDTOV"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "s:4data13AttractionDTOV2eeoiySbAC_ACtFZ",
-          "mangledName": "$s4data13AttractionDTOV2eeoiySbAC_ACtFZ",
-          "moduleName": "data",
-          "static": true,
-          "funcSelfKind": "NonMutating"
-        },
-        {
           "kind": "Var",
           "name": "embedded",
           "printedName": "embedded",
@@ -782,13 +751,6 @@
         },
         {
           "kind": "Conformance",
-          "name": "Equatable",
-          "printedName": "Equatable",
-          "usr": "s:SQ",
-          "mangledName": "$sSQ"
-        },
-        {
-          "kind": "Conformance",
           "name": "Sendable",
           "printedName": "Sendable",
           "usr": "s:s8SendableP",
@@ -801,37 +763,6 @@
       "name": "Embedded",
       "printedName": "Embedded",
       "children": [
-        {
-          "kind": "Function",
-          "name": "==",
-          "printedName": "==(_:_:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Bool",
-              "printedName": "Swift.Bool",
-              "usr": "s:Sb"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Embedded",
-              "printedName": "data.Embedded",
-              "usr": "s:4data8EmbeddedV"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Embedded",
-              "printedName": "data.Embedded",
-              "usr": "s:4data8EmbeddedV"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "s:4data8EmbeddedV2eeoiySbAC_ACtFZ",
-          "mangledName": "$s4data8EmbeddedV2eeoiySbAC_ACtFZ",
-          "moduleName": "data",
-          "static": true,
-          "funcSelfKind": "NonMutating"
-        },
         {
           "kind": "Var",
           "name": "attractions",
@@ -1004,13 +935,6 @@
         },
         {
           "kind": "Conformance",
-          "name": "Equatable",
-          "printedName": "Equatable",
-          "usr": "s:SQ",
-          "mangledName": "$sSQ"
-        },
-        {
-          "kind": "Conformance",
           "name": "Sendable",
           "printedName": "Sendable",
           "usr": "s:s8SendableP",
@@ -1023,37 +947,6 @@
       "name": "Attraction",
       "printedName": "Attraction",
       "children": [
-        {
-          "kind": "Function",
-          "name": "==",
-          "printedName": "==(_:_:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Bool",
-              "printedName": "Swift.Bool",
-              "usr": "s:Sb"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Attraction",
-              "printedName": "data.Attraction",
-              "usr": "s:4data10AttractionV"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Attraction",
-              "printedName": "data.Attraction",
-              "usr": "s:4data10AttractionV"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "s:4data10AttractionV2eeoiySbAC_ACtFZ",
-          "mangledName": "$s4data10AttractionV2eeoiySbAC_ACtFZ",
-          "moduleName": "data",
-          "static": true,
-          "funcSelfKind": "NonMutating"
-        },
         {
           "kind": "Var",
           "name": "name",
@@ -2669,13 +2562,6 @@
           "printedName": "Encodable",
           "usr": "s:SE",
           "mangledName": "$sSE"
-        },
-        {
-          "kind": "Conformance",
-          "name": "Equatable",
-          "printedName": "Equatable",
-          "usr": "s:SQ",
-          "mangledName": "$sSQ"
         },
         {
           "kind": "Conformance",

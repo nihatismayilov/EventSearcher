@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "9f0764b877b6631757243a497dd0ce6e912b298c38db7e7e11ea7576e9beca17"
-build_start_time: [1662027613, 823916912]
-build_end_time: [1662027618, 808511972]
+build_start_time: [1662164688, 154528141]
+build_end_time: [1662164692, 836280822]
 inputs:
   "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/SourcePackages/checkouts/SnapKit/Sources/Constraint.swift": [1661960070, 468534946]
   "/Users/nazimasadov/Desktop/EventSearcher/DerivedData/SourcePackages/checkouts/SnapKit/Sources/ConstraintAttributes.swift": [1661960070, 468676805]

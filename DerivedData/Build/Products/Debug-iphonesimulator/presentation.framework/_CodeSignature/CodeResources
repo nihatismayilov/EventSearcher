@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		U358Oob6fkHTv8GgB8bz/L1BmgY=
+		</data>
 		<key>Frameworks/domain.framework/Info.plist</key>
 		<data>
 		QtCrAw3pWd/Qs7Uy9j33EwASQ3Q=
@@ -14,7 +18,7 @@
 		</data>
 		<key>Frameworks/domain.framework/domain</key>
 		<data>
-		A7JOFbghEzxXTxoyuJyYIoTvKx0=
+		Jpp4lGv1NOiEajgC7FDsTBuhweI=
 		</data>
 		<key>Headers/presentation-Swift.h</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Modules/presentation.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		VmixAsegZXE086wXj0OZj9KCsqs=
+		AfaVX8hUeMHJ6DXUNmf86ATzA8g=
 		</data>
 		<key>Modules/presentation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,11 +46,18 @@
 		</data>
 		<key>Modules/presentation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		B52Ijr66HmF6wmGWiM+m/zq1w6c=
+		lr8QJKTJnn+qmtDXJdrdNDMIHbY=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3MaiJlkE8TY0MSKBumVmxDLs8o13JYGP5+Ejl75GlUA=
+			</data>
+		</dict>
 		<key>Frameworks/domain.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -65,7 +76,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lg53eV8vJ/tE5Y5NWnUpeh7TD2BYoEBg5PhaDMuVtEo=
+			buW7/OOnnPTZE49B+GzWBlffFiJL2hVdke7TpdOhMrg=
 			</data>
 		</dict>
 		<key>Headers/presentation-Swift.h</key>
@@ -93,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wyxDxZLuDeWeoP9rdJfTZa1wpJWyjmDhjz2xEB61VYQ=
+			HrT9pdDPSv/ALYVyOAjKUMidRTmrsbvY5pUFy443USU=
 			</data>
 		</dict>
 		<key>Modules/presentation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -107,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mkTZgprtD5pLPTZkMIXF6R+Vcto9LcVEiDOkkoZaTJs=
+			X19XTDVXVVdKFQhzMFew1KYFh8ddc8GHON4/V31XDcE=
 			</data>
 		</dict>
 	</dict>

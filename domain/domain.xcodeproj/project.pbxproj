@@ -13,12 +13,14 @@
 		BF17439428BC2D0E00DD0FC5 /* Promises in Frameworks */ = {isa = PBXBuildFile; productRef = BF17439328BC2D0E00DD0FC5 /* Promises */; };
 		BF17439728BC2D1D00DD0FC5 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = BF17439628BC2D1D00DD0FC5 /* Swinject */; };
 		BF6CE87A28BD706A000A60F6 /* Attractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CE87928BD706A000A60F6 /* Attractions.swift */; };
+		BFA1964F28C2EF37009D2680 /* AttractionRepoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1964E28C2EF37009D2680 /* AttractionRepoProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF17434A28BC2C1600DD0FC5 /* domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF17434D28BC2C1600DD0FC5 /* domain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = domain.h; sourceTree = "<group>"; };
 		BF6CE87928BD706A000A60F6 /* Attractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attractions.swift; sourceTree = "<group>"; };
+		BFA1964E28C2EF37009D2680 /* AttractionRepoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRepoProtocol.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		BF6CE87228BD6D06000A60F6 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				BFA1964E28C2EF37009D2680 /* AttractionRepoProtocol.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA1964F28C2EF37009D2680 /* AttractionRepoProtocol.swift in Sources */,
 				BF6CE87A28BD706A000A60F6 /* Attractions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

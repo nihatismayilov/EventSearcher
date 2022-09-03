@@ -1,11 +1,11 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "b952b40101f8bcdf5a0bc8c95a769d8d270a5e5c45db1a247070a842e733dfdc"
-build_start_time: [1662027624, 480429172]
-build_end_time: [1662027625, 476107120]
+build_start_time: [1662164697, 398869037]
+build_end_time: [1662164698, 32150030]
 inputs:
   "/Users/nazimasadov/Desktop/EventSearcher/data/DI/DataAssembly.swift": [1661958021, 474793910]
-  "/Users/nazimasadov/Desktop/EventSearcher/data/DTOs/Attractions/AttractionDTO.swift": [1661958021, 475063562]
+  "/Users/nazimasadov/Desktop/EventSearcher/data/DTOs/Attractions/AttractionDTO.swift": [1662160357, 924760341]
   "/Users/nazimasadov/Desktop/EventSearcher/data/DTOs/EventRemoteDTO.swift": [1661958021, 475218296]
-  "/Users/nazimasadov/Desktop/EventSearcher/data/Mapper/Mapper.swift": [1661958021, 475391387]
+  "/Users/nazimasadov/Desktop/EventSearcher/data/Mapper/Mapper.swift": [1662164085, 950119972]
   "/Users/nazimasadov/Desktop/EventSearcher/data/Remote/EventRemoteDataSource.swift": [1661958021, 475583791]
   "/Users/nazimasadov/Desktop/EventSearcher/data/Remote/EventRemoteDataSourceProtocol.swift": [1661958021, 475700855]

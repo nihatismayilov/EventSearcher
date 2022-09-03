@@ -13,12 +13,12 @@
 				<key>testExample</key>
 				<dict>
 					<key>mrnet</key>
-					<real>0.0048769712448120117</real>
+					<real>0.0030119419097900391</real>
 				</dict>
 				<key>testPerformanceExample</key>
 				<dict>
 					<key>mrnet</key>
-					<real>0.27398991584777832</real>
+					<real>0.38098299503326416</real>
 				</dict>
 			</dict>
 		</dict>
@@ -29,12 +29,12 @@
 				<key>testExample</key>
 				<dict>
 					<key>mrnet</key>
-					<real>1.7121939659118652</real>
+					<real>2.3383749723434448</real>
 				</dict>
 				<key>testLaunchPerformance</key>
 				<dict>
 					<key>mrnet</key>
-					<real>75.762657046318054</real>
+					<real>0.0</real>
 				</dict>
 			</dict>
 			<key>EventSearcherUITestsLaunchTests</key>
@@ -42,7 +42,7 @@
 				<key>testLaunch</key>
 				<dict>
 					<key>mrnet</key>
-					<real>5.2707620859146118</real>
+					<real>5.1975419521331787</real>
 				</dict>
 			</dict>
 		</dict>

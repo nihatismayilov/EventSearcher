@@ -1,6 +1,7 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
-options: "cfe0737eb612a25866b5d036a9181e14aa17936238b2981f09444192d850a676"
-build_start_time: [1662027625, 548136949]
-build_end_time: [1662027625, 761019945]
+options: "7b5ba92d7486ef3095d8c1902622ccf98d4577686f22f1697028402f7d2a2a99"
+build_start_time: [1662164699, 914504051]
+build_end_time: [1662164700, 890461921]
 inputs:
-  "/Users/nazimasadov/Desktop/EventSearcher/EventSearcher/AppDelegate.swift": [1661966523, 313738822]
+  "/Users/nazimasadov/Desktop/EventSearcher/EventSearcher/AppDelegate.swift": [1662159240, 592545032]
+  "/Users/nazimasadov/Desktop/EventSearcher/EventSearcher/Generated/Images+Generated.swift": [1662159430, 732439041]

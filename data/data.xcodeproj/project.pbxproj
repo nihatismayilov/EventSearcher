@@ -17,6 +17,12 @@
 		BF6CE86F28BD66B4000A60F6 /* DataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CE86E28BD66B4000A60F6 /* DataAssembly.swift */; };
 		BF6CE87C28BD70DA000A60F6 /* AttractionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CE87B28BD70DA000A60F6 /* AttractionDTO.swift */; };
 		BF6CE87F28BD7DAB000A60F6 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CE87E28BD7DAB000A60F6 /* Mapper.swift */; };
+		BFA1963D28C2D7A2009D2680 /* AttractionsRemoteDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1963C28C2D7A2009D2680 /* AttractionsRemoteDataSourceProtocol.swift */; };
+		BFA1964128C2D821009D2680 /* AttractionRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1964028C2D821009D2680 /* AttractionRemoteDataSource.swift */; };
+		BFA1964328C2D8BA009D2680 /* AttractionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1964228C2D8BA009D2680 /* AttractionAPI.swift */; };
+		BFA1964528C2DFDC009D2680 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1964428C2DFDC009D2680 /* Endpoint.swift */; };
+		BFA1964C28C2EE1F009D2680 /* AttractionRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1964B28C2EE1F009D2680 /* AttractionRepo.swift */; };
+		BFA1965128C2EFB2009D2680 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1965028C2EFB2009D2680 /* testViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +50,12 @@
 		BF6CE87B28BD70DA000A60F6 /* AttractionDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionDTO.swift; sourceTree = "<group>"; };
 		BF6CE87E28BD7DAB000A60F6 /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
 		BFA1963328C2D126009D2680 /* dataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataTests.swift; sourceTree = "<group>"; };
+		BFA1963C28C2D7A2009D2680 /* AttractionsRemoteDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionsRemoteDataSourceProtocol.swift; sourceTree = "<group>"; };
+		BFA1964028C2D821009D2680 /* AttractionRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRemoteDataSource.swift; sourceTree = "<group>"; };
+		BFA1964228C2D8BA009D2680 /* AttractionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionAPI.swift; sourceTree = "<group>"; };
+		BFA1964428C2DFDC009D2680 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		BFA1964B28C2EE1F009D2680 /* AttractionRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRepo.swift; sourceTree = "<group>"; };
+		BFA1965028C2EFB2009D2680 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +74,13 @@
 		BF17432628BC2BD400DD0FC5 = {
 			isa = PBXGroup;
 			children = (
+				BFA1965028C2EFB2009D2680 /* testViewController.swift */,
 				BF6CE87D28BD7D9E000A60F6 /* Mapper */,
 				BF6CE87328BD6F5B000A60F6 /* DTOs */,
 				BF6CE86728BD651D000A60F6 /* Remote */,
+				BFA1964A28C2EDD0009D2680 /* Repositories */,
 				BF6CE86228BD62CB000A60F6 /* DI */,
+				BFA1964628C2DFE0009D2680 /* Global */,
 				BF17433228BC2BD400DD0FC5 /* data */,
 				BF17433128BC2BD400DD0FC5 /* Products */,
 				BFA1963528C2D12F009D2680 /* dataTests */,
@@ -108,8 +123,8 @@
 		BF6CE86728BD651D000A60F6 /* Remote */ = {
 			isa = PBXGroup;
 			children = (
-				BF6CE86828BD655E000A60F6 /* EventRemoteDataSource.swift */,
-				BF6CE86A28BD6570000A60F6 /* EventRemoteDataSourceProtocol.swift */,
+				BFA1963F28C2D802009D2680 /* Event */,
+				BFA1963E28C2D7F5009D2680 /* Attraction */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -121,7 +136,6 @@
 				BF6CE87628BD6F95000A60F6 /* Events */,
 				BF6CE87528BD6F83000A60F6 /* Classifications */,
 				BF6CE87428BD6F6B000A60F6 /* Attractions */,
-				BF6CE86C28BD6640000A60F6 /* EventRemoteDTO.swift */,
 			);
 			path = DTOs;
 			sourceTree = "<group>";
@@ -144,6 +158,7 @@
 		BF6CE87628BD6F95000A60F6 /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				BF6CE86C28BD6640000A60F6 /* EventRemoteDTO.swift */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -169,6 +184,41 @@
 				BFA1963328C2D126009D2680 /* dataTests.swift */,
 			);
 			path = dataTests;
+			sourceTree = "<group>";
+		};
+		BFA1963E28C2D7F5009D2680 /* Attraction */ = {
+			isa = PBXGroup;
+			children = (
+				BFA1963C28C2D7A2009D2680 /* AttractionsRemoteDataSourceProtocol.swift */,
+				BFA1964028C2D821009D2680 /* AttractionRemoteDataSource.swift */,
+				BFA1964228C2D8BA009D2680 /* AttractionAPI.swift */,
+			);
+			path = Attraction;
+			sourceTree = "<group>";
+		};
+		BFA1963F28C2D802009D2680 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				BF6CE86828BD655E000A60F6 /* EventRemoteDataSource.swift */,
+				BF6CE86A28BD6570000A60F6 /* EventRemoteDataSourceProtocol.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		BFA1964628C2DFE0009D2680 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				BFA1964428C2DFDC009D2680 /* Endpoint.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		BFA1964A28C2EDD0009D2680 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				BFA1964B28C2EE1F009D2680 /* AttractionRepo.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,11 +308,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA1964328C2D8BA009D2680 /* AttractionAPI.swift in Sources */,
 				BF6CE86928BD655E000A60F6 /* EventRemoteDataSource.swift in Sources */,
 				BF6CE87C28BD70DA000A60F6 /* AttractionDTO.swift in Sources */,
+				BFA1964C28C2EE1F009D2680 /* AttractionRepo.swift in Sources */,
 				BF6CE86B28BD6570000A60F6 /* EventRemoteDataSourceProtocol.swift in Sources */,
+				BFA1964528C2DFDC009D2680 /* Endpoint.swift in Sources */,
+				BFA1965128C2EFB2009D2680 /* testViewController.swift in Sources */,
 				BF6CE86D28BD6640000A60F6 /* EventRemoteDTO.swift in Sources */,
 				BF6CE87F28BD7DAB000A60F6 /* Mapper.swift in Sources */,
+				BFA1963D28C2D7A2009D2680 /* AttractionsRemoteDataSourceProtocol.swift in Sources */,
+				BFA1964128C2D821009D2680 /* AttractionRemoteDataSource.swift in Sources */,
 				BF6CE86F28BD66B4000A60F6 /* DataAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

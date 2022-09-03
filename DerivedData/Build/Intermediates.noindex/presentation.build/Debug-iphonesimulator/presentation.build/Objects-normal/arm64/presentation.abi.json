@@ -666,6 +666,13 @@
       "moduleName": "presentation"
     },
     {
+      "kind": "Import",
+      "name": "domain",
+      "printedName": "domain",
+      "declKind": "Import",
+      "moduleName": "presentation"
+    },
+    {
       "kind": "TypeDecl",
       "name": "FirstViewController",
       "printedName": "FirstViewController",
@@ -703,6 +710,41 @@
             "Final"
           ],
           "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_testImage",
+          "printedName": "$__lazy_storage_$_testImage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIImageView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12presentation19FirstViewControllerC27$__lazy_storage_$_testImage33_C4314A06140ACC07B67EF52A2CC7514CLLSo07UIImageC0CSgvp",
+          "mangledName": "$s12presentation19FirstViewControllerC27$__lazy_storage_$_testImage33_C4314A06140ACC07B67EF52A2CC7514CLLSo07UIImageC0CSgvp",
+          "moduleName": "presentation",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 1,
           "hasStorage": true
         },
         {

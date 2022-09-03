@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		U358Oob6fkHTv8GgB8bz/L1BmgY=
+		</data>
 		<key>Frameworks/domain.framework/Info.plist</key>
 		<data>
 		QtCrAw3pWd/Qs7Uy9j33EwASQ3Q=
@@ -14,7 +18,7 @@
 		</data>
 		<key>Frameworks/domain.framework/domain</key>
 		<data>
-		A7JOFbghEzxXTxoyuJyYIoTvKx0=
+		Jpp4lGv1NOiEajgC7FDsTBuhweI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,6 +27,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3MaiJlkE8TY0MSKBumVmxDLs8o13JYGP5+Ejl75GlUA=
+			</data>
+		</dict>
 		<key>Frameworks/domain.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -41,7 +52,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lg53eV8vJ/tE5Y5NWnUpeh7TD2BYoEBg5PhaDMuVtEo=
+			buW7/OOnnPTZE49B+GzWBlffFiJL2hVdke7TpdOhMrg=
 			</data>
 		</dict>
 	</dict>

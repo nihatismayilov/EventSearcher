@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "76305fc0508d30e6e3f2858e5e15f197f76df71cbf28143ef7255c4947c4622b"
-build_start_time: [1662027628, 242301940]
-build_end_time: [1662027628, 423089981]
+build_start_time: [1662164704, 58269023]
+build_end_time: [1662164704, 267089843]
 inputs:
   "/Users/nazimasadov/Desktop/EventSearcher/EventSearcherUITests/EventSearcherUITests.swift": [1661958021, 486514568]
   "/Users/nazimasadov/Desktop/EventSearcher/EventSearcherUITests/EventSearcherUITestsLaunchTests.swift": [1661958021, 486651420]

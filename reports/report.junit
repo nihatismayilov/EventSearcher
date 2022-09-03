@@ -1,17 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='EventSearcherUITests.xctest' tests='8' failures='0'>
+<testsuites name='EventSearcherUITests.xctest' tests='7' failures='0'>
   <testsuite name='EventSearcherTests.EventSearcherTests' tests='2' failures='0'>
-    <testcase classname='EventSearcherTests.EventSearcherTests' name='testExample' time='0.005'/>
-    <testcase classname='EventSearcherTests.EventSearcherTests' name='testPerformanceExample' time='0.274'/>
+    <testcase classname='EventSearcherTests.EventSearcherTests' name='testExample' time='0.003'/>
+    <testcase classname='EventSearcherTests.EventSearcherTests' name='testPerformanceExample' time='0.381'/>
   </testsuite>
-  <testsuite name='EventSearcherUITests.EventSearcherUITests' tests='2' failures='0'>
-    <testcase classname='EventSearcherUITests.EventSearcherUITests' name='testExample' time='1.712'/>
-    <testcase classname='EventSearcherUITests.EventSearcherUITests' name='testLaunchPerformance' time='75.763'/>
+  <testsuite name='EventSearcherUITests.EventSearcherUITests' tests='1' failures='0'>
+    <testcase classname='EventSearcherUITests.EventSearcherUITests' name='testExample' time='2.338'/>
   </testsuite>
   <testsuite name='EventSearcherUITests.EventSearcherUITestsLaunchTests' tests='4' failures='0'>
-    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='3.264'/>
-    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='5.230'/>
-    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='3.694'/>
-    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='5.271'/>
+    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='4.230'/>
+    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='5.174'/>
+    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='3.728'/>
+    <testcase classname='EventSearcherUITests.EventSearcherUITestsLaunchTests' name='testLaunch' time='5.198'/>
   </testsuite>
 </testsuites>

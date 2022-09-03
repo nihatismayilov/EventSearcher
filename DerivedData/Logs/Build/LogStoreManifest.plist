@@ -40,7 +40,7 @@
 			<key>uniqueIdentifier</key>
 			<string>36991A28-565D-43A4-B3F0-1E4F24D05904</string>
 		</dict>
-		<key>835701E8-77B3-4AE8-A00A-DCEE92E81251</key>
+		<key>718EBDF3-2C17-4648-AB48-325733A39D9A</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -49,13 +49,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>835701E8-77B3-4AE8-A00A-DCEE92E81251.xcactivitylog</string>
+			<string>718EBDF3-2C17-4648-AB48-325733A39D9A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>EventSearcher project</string>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Building project EventSearcher with scheme EventSearcher</string>
 			<key>timeStartedRecording</key>
-			<real>683720410.68528199</real>
+			<real>683857485.40558398</real>
 			<key>timeStoppedRecording</key>
-			<real>683720427.48336697</real>
+			<real>683857503.10928798</real>
 			<key>title</key>
 			<string>Building project EventSearcher with scheme EventSearcher</string>
 			<key>uniqueIdentifier</key>
-			<string>835701E8-77B3-4AE8-A00A-DCEE92E81251</string>
+			<string>718EBDF3-2C17-4648-AB48-325733A39D9A</string>
 		</dict>
-		<key>AC804ED0-31B1-4518-B147-C1F0DD4C8EB8</key>
+		<key>8D663C65-7FEE-45BC-908D-8AE52183E3E0</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -83,7 +83,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>AC804ED0-31B1-4518-B147-C1F0DD4C8EB8.xcactivitylog</string>
+			<string>8D663C65-7FEE-45BC-908D-8AE52183E3E0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EventSearcher project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EventSearcher</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project EventSearcher with scheme EventSearcher</string>
+			<key>timeStartedRecording</key>
+			<real>683857503.11292195</real>
+			<key>timeStoppedRecording</key>
+			<real>683857505.44007099</real>
+			<key>title</key>
+			<string>Testing project EventSearcher with scheme EventSearcher</string>
+			<key>uniqueIdentifier</key>
+			<string>8D663C65-7FEE-45BC-908D-8AE52183E3E0</string>
+		</dict>
+		<key>9F941D22-C810-486F-9694-50540BEFD41C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9F941D22-C810-486F-9694-50540BEFD41C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,47 +134,13 @@
 			<key>signature</key>
 			<string>Cleaning project EventSearcher with scheme EventSearcher</string>
 			<key>timeStartedRecording</key>
-			<real>683720410.01436496</real>
+			<real>683857484.72995698</real>
 			<key>timeStoppedRecording</key>
-			<real>683720410.67424095</real>
+			<real>683857485.40516603</real>
 			<key>title</key>
 			<string>Cleaning project EventSearcher with scheme EventSearcher</string>
 			<key>uniqueIdentifier</key>
-			<string>AC804ED0-31B1-4518-B147-C1F0DD4C8EB8</string>
-		</dict>
-		<key>C59AB7CD-96CA-42DB-AE3D-30544D9596C7</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C59AB7CD-96CA-42DB-AE3D-30544D9596C7.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>EventSearcher project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>EventSearcher</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Testing project EventSearcher with scheme EventSearcher</string>
-			<key>timeStartedRecording</key>
-			<real>683720220.77314603</real>
-			<key>timeStoppedRecording</key>
-			<real>683720222.94339395</real>
-			<key>title</key>
-			<string>Testing project EventSearcher with scheme EventSearcher</string>
-			<key>uniqueIdentifier</key>
-			<string>C59AB7CD-96CA-42DB-AE3D-30544D9596C7</string>
+			<string>9F941D22-C810-486F-9694-50540BEFD41C</string>
 		</dict>
 	</dict>
 </dict>

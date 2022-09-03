@@ -6,10 +6,10 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>9412963E-314C-410E-AE9E-6D47EA0E2377</key>
+		<key>23787678-F76C-4E76-A3D8-8FF1E04A4514</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>61EB31BF-DFC4-4052-A4FC-A1E54658FCC3</string>
+			<string>9F941D22-C810-486F-9694-50540BEFD41C</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -22,7 +22,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Run-EventSearcher-2022.09.01_14-16-41-+0400.xcresult</string>
+			<string>Run-EventSearcher-2022.09.03_04-24-44-+0400.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasCoverageData</key>
@@ -32,7 +32,7 @@
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>T</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>EventSearcher project</string>
@@ -43,13 +43,13 @@
 			<key>signature</key>
 			<string>Run EventSearcher</string>
 			<key>timeStartedRecording</key>
-			<real>683720201.85933697</real>
+			<real>683857484.73160005</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run EventSearcher</string>
 			<key>uniqueIdentifier</key>
-			<string>9412963E-314C-410E-AE9E-6D47EA0E2377</string>
+			<string>23787678-F76C-4E76-A3D8-8FF1E04A4514</string>
 		</dict>
 		<key>E4A8D8C3-B5C6-434F-8084-41354C8DDF46</key>
 		<dict>

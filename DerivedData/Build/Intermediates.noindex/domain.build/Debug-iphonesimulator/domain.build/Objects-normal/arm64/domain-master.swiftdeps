@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "ba81ee748f060282c4e2d82e5872e2ec7bab345c60cf6fb0303d24c729fd6e52"
-build_start_time: [1662027624, 89794158]
-build_end_time: [1662027624, 407508850]
+build_start_time: [1662164696, 753842830]
+build_end_time: [1662164697, 326374053]
 inputs:
   "/Users/nazimasadov/Desktop/EventSearcher/domain/Entities/Attractions.swift": [1661958021, 476677656]
