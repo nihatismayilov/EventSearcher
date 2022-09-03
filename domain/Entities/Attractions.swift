@@ -7,10 +7,8 @@
 
 import Foundation
 
-public struct Attractions: Equatable  {
-    public static func == (lhs: Attractions, rhs: Attractions) -> Bool {
-        lhs.embedded == rhs.embedded
-    }
+public struct Attractions  {
+
     
     public let embedded: Embedded
     public let links: WelcomeLinks
@@ -24,19 +22,14 @@ public struct Attractions: Equatable  {
 }
 
 // MARK: - Embedded
-public struct Embedded: Equatable {
-    public static func == (lhs: Embedded, rhs: Embedded) -> Bool {
-        rhs.attractions == lhs.attractions
-    }
-    
+public struct Embedded {
+
     public let attractions: [Attraction]
 }
 
 // MARK: - Attraction
-public struct Attraction: Equatable  {
-    public static func == (lhs: Attraction, rhs: Attraction) -> Bool {
-        lhs.id == rhs.id
-    }
+public struct Attraction  {
+ 
     
    public let name: String
    public let type: TypeEnum

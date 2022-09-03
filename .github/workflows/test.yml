@@ -26,6 +26,9 @@ jobs:
 
       - name: Install lizard
         run: pip install lizard
+
+      - name: Install Swiftgen
+        run: brew install swiftgen
         
       - name: Install Sonar scanner
         run: brew install sonar-scanner

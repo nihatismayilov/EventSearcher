@@ -27,7 +27,31 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BF17434928BC2C1600DD0FC5"
+            BuildableName = "domain.framework"
+            BlueprintName = "domain"
+            ReferencedContainer = "container:domain/domain.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BF17432F28BC2BD400DD0FC5"
+            BuildableName = "data.framework"
+            BlueprintName = "data"
+            ReferencedContainer = "container:data/data.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BF17436328BC2C3000DD0FC5"
+            BuildableName = "presentation.framework"
+            BlueprintName = "presentation"
+            ReferencedContainer = "container:presentation/presentation.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">

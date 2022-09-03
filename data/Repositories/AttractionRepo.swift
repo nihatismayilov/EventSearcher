@@ -5,6 +5,6 @@
 //  Created by Nazim Asadov on 03.09.22.
 //
 
-import Foundation
+//import Foundation
 
-class AttractionRepo
+//class AttractionRepo
