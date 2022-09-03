@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import domain
 
 public class FirstViewController: BaseViewController<FirstViewModel> {
     
@@ -20,15 +21,35 @@ public class FirstViewController: BaseViewController<FirstViewModel> {
         
         return lbl
     }()
+    
+    
+    private lazy var testImage: UIImageView = {
+       let img = UIImageView()
+        
+        img.contentMode = .scaleAspectFit
+        img.image = UIImage(named: "Group-6")
+//        img.backgroundColor = .red
+        return img
+    }()
 
     public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .lightGray
         
        
-        self.view.addSubview(testLabel)
+        view.addSubview(testLabel)
+        view.addSubview(testImage)
+        
+
+        
         testLabel.snp.makeConstraints { make in
             make.center.equalTo(view.center)
+        }
+        
+        testImage.snp.makeConstraints { make in
+            make.width.height.equalTo(100)
+            make.centerX.equalTo(testLabel.snp.centerX)
+            make.top.equalTo(testLabel.snp.bottom).offset(20)
         }
     }
 }

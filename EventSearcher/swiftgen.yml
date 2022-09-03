@@ -1,0 +1,9 @@
+input_dir: EventSearcher/
+output_dir: EventSearcher/Generated/
+
+xcassets:
+  inputs: 
+  - Images.xcassets
+  outputs: 
+    templateName: swift5
+    output: Images+Generated.swift

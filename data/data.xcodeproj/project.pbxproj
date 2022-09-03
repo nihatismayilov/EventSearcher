@@ -17,6 +17,7 @@
 		BF6CE86F28BD66B4000A60F6 /* DataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CE86E28BD66B4000A60F6 /* DataAssembly.swift */; };
 		BF6CE87C28BD70DA000A60F6 /* AttractionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CE87B28BD70DA000A60F6 /* AttractionDTO.swift */; };
 		BF6CE87F28BD7DAB000A60F6 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CE87E28BD7DAB000A60F6 /* Mapper.swift */; };
+		BFA1963428C2D126009D2680 /* dataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1963328C2D126009D2680 /* dataTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		BF6CE86E28BD66B4000A60F6 /* DataAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAssembly.swift; sourceTree = "<group>"; };
 		BF6CE87B28BD70DA000A60F6 /* AttractionDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionDTO.swift; sourceTree = "<group>"; };
 		BF6CE87E28BD7DAB000A60F6 /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		BFA1963328C2D126009D2680 /* dataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				BF6CE86228BD62CB000A60F6 /* DI */,
 				BF17433228BC2BD400DD0FC5 /* data */,
 				BF17433128BC2BD400DD0FC5 /* Products */,
+				BFA1963528C2D12F009D2680 /* dataTests */,
 				BF17437928BC2C5400DD0FC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -161,6 +164,14 @@
 			path = Mapper;
 			sourceTree = "<group>";
 		};
+		BFA1963528C2D12F009D2680 /* dataTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA1963328C2D126009D2680 /* dataTests.swift */,
+			);
+			path = dataTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -249,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6CE86928BD655E000A60F6 /* EventRemoteDataSource.swift in Sources */,
+				BFA1963428C2D126009D2680 /* dataTests.swift in Sources */,
 				BF6CE87C28BD70DA000A60F6 /* AttractionDTO.swift in Sources */,
 				BF6CE86B28BD6570000A60F6 /* EventRemoteDataSourceProtocol.swift in Sources */,
 				BF6CE86D28BD6640000A60F6 /* EventRemoteDTO.swift in Sources */,

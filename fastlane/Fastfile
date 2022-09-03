@@ -13,18 +13,20 @@
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
 
+
 default_platform(:ios)
 
 platform :ios do
-  desc "Built and test application nzm"
+  
+  desc "Build and test application"
   lane :test do |options|
     scan(
       derived_data_path: "./DerivedData",
-      scheme: "EventSearcher",
-      output_directory: "./reports"
+      output_directory: "./reports",
+      scheme: "EventSearcher"
     )
     slather(
-      build_directory: "./DerivedData",
+      build_directory: "./DerivedData", 
       output_directory: "./reports",
       scheme: "EventSearcher",
       proj: "EventSearcher.xcodeproj",
@@ -43,7 +45,7 @@ platform :ios do
       ignore_exit_status: true
     )
     sonar(
-      sonar_login: options[:sonar_login]
+      sonar_login: options[:sonar_login],
     )
   end
 end

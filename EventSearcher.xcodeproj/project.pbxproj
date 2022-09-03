@@ -24,6 +24,8 @@
 		BF2B03E728BE33DB0039087A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B03E228BE33DB0039087A /* Poppins-Bold.ttf */; };
 		BF2B03E828BE33DB0039087A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B03E328BE33DB0039087A /* Poppins-SemiBold.ttf */; };
 		BF2B03EA28BE3B600039087A /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B03E928BE3B600039087A /* Poppins-ExtraLight.ttf */; };
+		BFDA751228C1A2F800582990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDA751128C1A2F800582990 /* Images.xcassets */; };
+		BFDA751528C1A46400582990 /* Images+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDA751428C1A46400582990 /* Images+Generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		BF2B03E228BE33DB0039087A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		BF2B03E328BE33DB0039087A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		BF2B03E928BE3B600039087A /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		BFDA751128C1A2F800582990 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFDA751428C1A46400582990 /* Images+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+Generated.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,10 +160,12 @@
 		BF17423B28BC153B00DD0FC5 /* EventSearcher */ = {
 			isa = PBXGroup;
 			children = (
+				BFDA751328C1A43600582990 /* Generated */,
 				BF2B03DE28BE33DB0039087A /* PoppinsFont */,
 				BF17423C28BC153B00DD0FC5 /* AppDelegate.swift */,
 				BF17424728BC153C00DD0FC5 /* LaunchScreen.storyboard */,
 				BF17424A28BC153C00DD0FC5 /* Info.plist */,
+				BFDA751128C1A2F800582990 /* Images.xcassets */,
 			);
 			path = EventSearcher;
 			sourceTree = "<group>";
@@ -225,6 +231,14 @@
 			path = PoppinsFont;
 			sourceTree = "<group>";
 		};
+		BFDA751328C1A43600582990 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				BFDA751428C1A46400582990 /* Images+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF17426328BC153C00DD0FC5 /* Build configuration list for PBXNativeTarget "EventSearcher" */;
 			buildPhases = (
+				BFDA751628C1A5EE00582990 /* Swiftgen */,
 				BF17423528BC153B00DD0FC5 /* Sources */,
 				BF17423628BC153B00DD0FC5 /* Frameworks */,
 				BF17423728BC153B00DD0FC5 /* Resources */,
@@ -373,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2B03E528BE33DB0039087A /* Poppins-Medium.ttf in Resources */,
+				BFDA751228C1A2F800582990 /* Images.xcassets in Resources */,
 				BF17424928BC153C00DD0FC5 /* LaunchScreen.storyboard in Resources */,
 				BF2B03E728BE33DB0039087A /* Poppins-Bold.ttf in Resources */,
 				BF2B03E828BE33DB0039087A /* Poppins-SemiBold.ttf in Resources */,
@@ -398,12 +414,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BFDA751628C1A5EE00582990 /* Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nswiftgen config run\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF17423528BC153B00DD0FC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BF17423D28BC153B00DD0FC5 /* AppDelegate.swift in Sources */,
+				BFDA751528C1A46400582990 /* Images+Generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

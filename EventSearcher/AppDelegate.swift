@@ -21,7 +21,5 @@ var window: UIWindow?
         window?.rootViewController = FirstViewController()
         return true
 
-
-        
     }
 }

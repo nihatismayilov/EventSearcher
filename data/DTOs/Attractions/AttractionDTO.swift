@@ -8,10 +8,8 @@
 import Foundation
 import domain
 
-struct AttractionDTO: Codable, Equatable {
-    static func == (lhs: AttractionDTO, rhs: AttractionDTO) -> Bool {
-        lhs.embedded == rhs.embedded
-    }
+struct AttractionDTO: Codable {
+
     
     let embedded: Embedded
     let links: WelcomeLinks
@@ -22,26 +20,17 @@ struct AttractionDTO: Codable, Equatable {
         case links = "_links"
         case page
     }
-    
-//    func toDomain() -> Attractions {
-//        return Attractions(embedded: embedded, links: links, page: page)
-//    }
 }
 
 // MARK: - Embedded
-struct Embedded: Codable, Equatable {
-    static func == (lhs: Embedded, rhs: Embedded) -> Bool {
-        lhs.attractions == rhs.attractions
-    }
+struct Embedded: Codable {
     
     let attractions: [Attraction]
 }
 
 // MARK: - Attraction
-struct Attraction: Codable, Equatable {
-    static func == (lhs: Attraction, rhs: Attraction) -> Bool {
-        lhs.id == rhs.id
-    }
+struct Attraction: Codable {
+
     
     let name: String
     let type: TypeEnum
